@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativeLayout_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/imageView_articleThumb"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1 - Lorem ipsum dolor sit amet, consectetur adipiscing elit. In semper pellentesque nunc nec facilisis. Praesent eu mauris urna, et ullamcorper massa. Fusce accumsan iaculis tortor ac eleifend. Aenean gravida porttitor dolor a mollis. Nam nec nisl lorem, ut hendrerit massa. Vivamus at consequat est. Integer tempor tincidunt libero aliquet imperdiet. Proin ipsum nulla, mollis ut viverra facilisis, mattis vitae ipsum. Sed euismod commodo mattis. Vivamus vitae tortor in urna accumsan feugiat. Vivamus quis ipsum urna. Vivamus sit amet ipsum ac turpis laoreet adipiscing vitae quis dolor."
+        android:id="@+id/textView_articleText"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/imageView_articleThumb"
+        android:layout_toEndOf="@+id/imageView_articleThumb"
+        android:layout_alignBottom="@+id/imageView_articleThumb"
+        android:layout_marginLeft="5dp" />
+</RelativeLayout>
